@@ -1,0 +1,20 @@
+# Thread-Safe Queues
+
+## Installation
+
+Install the [Rich](https://pypi.org/project/rich/) library
+
+This will let you add colors, [emojis](https://en.wikipedia.org/wiki/Emoji), and visual components to your terminal
+
+```bash
+(venv) $ python -m pip install rich
+```
+
+## Practice
+
+> [https://github.com/yuhua0731/python-roadmap](https://github.com/yuhua0731/python-roadmap)
+
+## Asynchronous Queues <a href="#using-asynchronous-queues" id="using-asynchronous-queues"></a>
+
+There’s recently been a <mark style="color:yellow;">single-threaded</mark> alternative to synchronized queues, taking advantage of [Python’s asynchronous features](https://realpython.com/python-async-features/).
+
