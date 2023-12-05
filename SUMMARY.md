@@ -37,3 +37,5 @@
 
 * [🛩 HC](hc/README.md)
   * [ScanHome扫码器](hc/scanhome-sao-ma-qi.md)
+  * [belt-lifter](hc/belt-lifter.md)
+  * [omnisort-infeed-controller-am335x](hc/omnisort-infeed-controller-am335x.md)
