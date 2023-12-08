@@ -12,17 +12,18 @@ description: 虚拟环境被创建后，可在任意路径进行激活并使用
 4. you can see your virtual env name in your terminal line, like this:
 5. `deactivate` to exit current virtual environment
 
-```sh
- > cd ~/virtualenv
- > virtualenv mypython
- > source mypython/bin/activate
- ~/virtualenv >                  py mypython 11:22:39                                                                                                  
- > deactivate
+<pre class="language-sh"><code class="lang-sh"> > cd ~/virtualenv
+ > virtualenv "venv_name"
+ > source "venv_name"/bin/activate
+ ~/virtualenv >                  py mypython 11:22:39                                                                                                  
+ > deactivate
  ​
- > pip list # list all packages installed
- > pipenv --venv # list virtual environment
- > python3 -m venv .venv # create new virtual environment for current workspace (macOS.vscode)
-```
+ > pip list # list all packages installed
+ <a data-footnote-ref href="#user-content-fn-1">> find . -name "*activate" -type f</a> # bare command list to find all virtual environment in a path
+ <a data-footnote-ref href="#user-content-fn-2">>  pipenv --venv # list virtual environment</a>
+ > python3 -m "venv_name" .venv # create new virtual environment for current workspace (macOS.vscode)
+ > sudo rm -rf "venv_name" # delete a virtual environment
+</code></pre>
 
 {% hint style="success" %}
 如果出现python版本无法匹配的情况，请更新virtualenv以获取当前使用的python版本\
@@ -31,9 +32,7 @@ description: 虚拟环境被创建后，可在任意路径进行激活并使用
 
 ## Execute a script anywhere in shell
 
-add `export PATH=$PATH:</path/to/file>` to your `~/.zshrc` file.
-
-Does not work
+[add `export PATH=$PATH:</path/to/file>` to your `~/.zshrc` file.](#user-content-fn-3)[^3]
 
 ## Export python environment to another computer
 
@@ -43,3 +42,10 @@ Does not work
 ```
 
 \
+
+
+[^1]: [https://bobbyhadz.com/blog/list-all-virtual-environments-python](https://bobbyhadz.com/blog/list-all-virtual-environments-python)
+
+[^2]: this line does not work
+
+[^3]: Does not work

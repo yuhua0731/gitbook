@@ -5,13 +5,13 @@
   * [Play with classes](python-roadmap/play-with-classes/README.md)
     * [writing elegant classes](python-roadmap/play-with-classes/writing-elegant-classes.md)
   * [Yield](python-roadmap/yield.md)
-  * [asyncio](python-roadmap/asyncio.md)
   * [Heap](python-roadmap/heap.md)
   * [Stack & Queue](python-roadmap/stack-and-queue/README.md)
     * [task\_done()](python-roadmap/stack-and-queue/task\_done.md)
   * [Graph Modules](python-roadmap/graph-modules.md)
   * [Tree traversal order](python-roadmap/tree-traversal-order.md)
   * [Thread-Safe Queues](python-roadmap/thread-safe-queues.md)
+  * [Asynchronous](python-roadmap/asynchronous.md)
 
 ## 👻 Tricks
 

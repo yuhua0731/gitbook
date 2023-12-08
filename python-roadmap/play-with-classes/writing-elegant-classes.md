@@ -143,3 +143,18 @@ class Element:
     value: Any
 ```
 
+## argparse
+
+```python
+def main(args):
+    pass
+
+def parse_args():
+    parser = argparse.ArgumentParser(description = 'xx arguments')
+    parser.add_argument("-d", "--max-depth", type=int, default=2)
+    parser.add_argument("-w", "--num-workers", type=int, default=3)
+    return parser.parse_args()
+
+if __name__ == "__main__":
+    main(parse_args())
+```
