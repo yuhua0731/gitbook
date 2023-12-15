@@ -7,13 +7,16 @@ description: 虚拟环境被创建后，可在任意路径进行激活并使用
 ## Python virtualenv
 
 1. cd to virtualenv directory: `~/virtualenv`
-2. `virtualenv <your virtual env name>` to create new env
+2. `python3.x -m venv "venv-name"` to create new env
 3. `source <your virtual env folder>/<your virtual env name>/bin/activate` to active env
 4. you can see your virtual env name in your terminal line, like this:
 5. `deactivate` to exit current virtual environment
 
-<pre class="language-sh"><code class="lang-sh"> > cd ~/virtualenv
- > virtualenv "venv_name"
+<pre class="language-sh"><code class="lang-sh"> # it is recommanded that you put your virtual environment in your working directory
+ > cd ~/virtualenv
+ 
+ # commands to create and activate/deactivate a venv
+ > python3.x -m venv "venv-name"
  > source "venv_name"/bin/activate
  ~/virtualenv >                  py mypython 11:22:39                                                                                                  
  > deactivate
@@ -21,7 +24,6 @@ description: 虚拟环境被创建后，可在任意路径进行激活并使用
  > pip list # list all packages installed
  <a data-footnote-ref href="#user-content-fn-1">> find . -name "*activate" -type f</a> # bare command list to find all virtual environment in a path
  <a data-footnote-ref href="#user-content-fn-2">>  pipenv --venv # list virtual environment</a>
- > python3 -m "venv_name" .venv # create new virtual environment for current workspace (macOS.vscode)
  > sudo rm -rf "venv_name" # delete a virtual environment
 </code></pre>
 
