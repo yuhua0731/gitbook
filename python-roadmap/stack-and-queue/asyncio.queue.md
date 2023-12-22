@@ -2,7 +2,7 @@
 description: Asynchronous programming in python
 ---
 
-# Asynchronous
+# asyncio.Queue
 
 {% hint style="success" %}
 [https://realpython.com/async-io-python/](https://realpython.com/async-io-python/)
@@ -13,6 +13,8 @@ description: Asynchronous programming in python
 > **"Note**: In this article, I <mark style="color:green;">use the term</mark> **async IO** <mark style="color:green;">to denote</mark> the language-agnostic design of asynchronous IO, while `asyncio` <mark style="color:green;">refers to</mark> the Python package."
 
 ## Intro
+
+> async is not multi-threading, on the other hand, it is still <mark style="color:yellow;">single-thread</mark>, thus, we don't need to mutually exclusive access to shared resources
 
 ### asyncio:
 
@@ -112,3 +114,22 @@ Two 3
 `.task_done()` is used to mark `.join()` that the processing is done.
 
 > 💡 If you use `.join()` and don't call `.task_done()` for <mark style="color:yellow;">every processed item</mark>, your script will hang forever.
+
+### `asyncio.create_task()`
+
+Schedule the execution of a coroutine object in a spawn task. Return a Task object.
+
+```python
+task = asyncio.create_task(
+        worker(
+            f"Worker-{i + 1}",
+            session,
+            queue,
+            links,
+            args.max_depth,
+        )
+    )
+
+task.cancel() # clean up async task
+```
+

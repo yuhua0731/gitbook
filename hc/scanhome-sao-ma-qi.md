@@ -1,4 +1,4 @@
-# ScanHome扫码器
+# 📷 ScanHome扫码器
 
 ## 配置扫码器
 

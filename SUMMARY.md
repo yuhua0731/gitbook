@@ -8,10 +8,12 @@
   * [Heap](python-roadmap/heap.md)
   * [Stack & Queue](python-roadmap/stack-and-queue/README.md)
     * [task\_done()](python-roadmap/stack-and-queue/task\_done.md)
+    * [Thread-Safe Queues](python-roadmap/stack-and-queue/thread-safe-queues.md)
+    * [asyncio.Queue](python-roadmap/stack-and-queue/asyncio.queue.md)
+    * [multiprocessing.Queue](python-roadmap/stack-and-queue/multiprocessing.queue.md)
   * [Graph Modules](python-roadmap/graph-modules.md)
   * [Tree traversal order](python-roadmap/tree-traversal-order.md)
-  * [Thread-Safe Queues](python-roadmap/thread-safe-queues.md)
-  * [Asynchronous](python-roadmap/asynchronous.md)
+  * [Thread-Safe](python-roadmap/thread-safe.md)
 
 ## 👻 Tricks
 
@@ -36,7 +38,7 @@
 ***
 
 * [🛩 HC](hc/README.md)
-  * [ScanHome扫码器](hc/scanhome-sao-ma-qi.md)
-  * [belt-lifter](hc/belt-lifter.md)
+  * [📷 ScanHome扫码器](hc/scanhome-sao-ma-qi.md)
+  * [🛗 belt-lifter](hc/belt-lifter.md)
   * [✨ SPF-Sort\_Packet\_Feeder](hc/spf-sort\_packet\_feeder.md)
   * [🦩 zephyr-tool-kit](hc/zephyr-tool-kit.md)

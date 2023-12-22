@@ -12,3 +12,8 @@ By default sudo runs commands in different environment. You can ask sudo to pres
 sudo -E python myScriptName.py
 ```
 
+## http server
+
+```bash
+python -m http.server
+```
