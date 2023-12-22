@@ -105,3 +105,10 @@ Two 3
 """
 ```
 
+### `asyncio.Queue() .LifoQueue() .PriorityQueue()`
+
+* `queue.task_done() & queue.join()`
+
+`.task_done()` is used to mark `.join()` that the processing is done.
+
+> 💡 If you use `.join()` and don't call `.task_done()` for <mark style="color:yellow;">every processed item</mark>, your script will hang forever.
