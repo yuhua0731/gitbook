@@ -17,6 +17,8 @@ python3 -m pip install zephyr_toolkit-0.3.5.tar.gz
 
 > 若运行时提示缺少部分python模块，自行安装相应的模块即可
 
+### 查看帮助
+
 ```bash
 > ztk -h
 usage: ztk [-h] {build,clean,flash,settings,cp,ls,mkdir,mklfs,slcan,lss} ...
@@ -40,3 +42,28 @@ extension commands for zephyr:
     lss                 canopen layer setting service
 ```
 
+### build
+
+#### 切换至工作工程目录，生成compile.json文件
+
+```bash
+ztk build --template=compile.json
+```
+
+#### 添加目标主板
+
+> 打开`compile.json`文件，将编译目标主板添加至`available_boards`列表中
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="460"><figcaption></figcaption></figure>
+
+</div>
+
+#### 编译工程
+
+运行`ztk build`进行编译
+
+```bash
+ztk build -b p2201
+```

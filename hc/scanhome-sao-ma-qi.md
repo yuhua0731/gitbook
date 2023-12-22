@@ -6,11 +6,11 @@
 
 {% tabs %}
 {% tab title="恢复出厂设置" %}
-<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="USB HID-KBW" %}
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="没有结束符" %}
