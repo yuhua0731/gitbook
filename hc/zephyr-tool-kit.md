@@ -7,7 +7,7 @@
 ## 安装工具
 
 1. 打开任意`ncs`终端
-2. 运行`pip install`安装
+2. 切换至安装包所在目录，运行`pip install`安装
 
 ```bash
 python3 -m pip install zephyr_toolkit-0.3.5.tar.gz
