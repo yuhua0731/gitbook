@@ -1,7 +1,15 @@
-# omnisort-infeed-controller-am335x
+---
+description: OmniSort分拣系统供包机
+---
 
-{% embed url="http://10.0.2.251/embedded/omnisort-infeed-controller-am335x" %}
-代码仓库
+# ✨ SPF-Sort\_Packet\_Feeder
+
+{% embed url="https://gitlab.hcrobots.com/embedded/SPF-Sort_Packet_Feeder" %}
+供包机代码仓库
+{% endembed %}
+
+{% embed url="https://gitlab.hcrobots.com/embedded-tool/arm-linux-gnueabihf" %}
+编译工具
 {% endembed %}
 
 ```bash

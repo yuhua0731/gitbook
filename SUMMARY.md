@@ -38,5 +38,5 @@
 * [🛩 HC](hc/README.md)
   * [ScanHome扫码器](hc/scanhome-sao-ma-qi.md)
   * [belt-lifter](hc/belt-lifter.md)
-  * [omnisort-infeed-controller-am335x](hc/omnisort-infeed-controller-am335x.md)
+  * [✨ SPF-Sort\_Packet\_Feeder](hc/spf-sort\_packet\_feeder.md)
   * [🦩 zephyr-tool-kit](hc/zephyr-tool-kit.md)
