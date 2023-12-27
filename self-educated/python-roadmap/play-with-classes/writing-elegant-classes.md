@@ -106,6 +106,10 @@ def __next__(self):
 
 `make your class compatible with the len() function`
 
+### `__call__()`
+
+By implementing the special method `.__call__()` in a job, you [make objects of your class callable](https://realpython.com/python-callable-instances/).
+
 ## built-in fun modules
 
 ### count
@@ -142,6 +146,10 @@ class Element:
     count: int
     value: Any
 ```
+
+### `@dataclass(frozen=True)`
+
+the additional <mark style="color:yellow;">`frozen`</mark> flag, which make sure that the objects can not be modified
 
 ## argparse
 

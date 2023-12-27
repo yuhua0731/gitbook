@@ -2,7 +2,7 @@
 description: 虚拟环境被创建后，可在任意路径进行激活并使用
 ---
 
-# 🐾 Virtual environment
+# 🥑 Virtual environment
 
 ## Python virtualenv
 

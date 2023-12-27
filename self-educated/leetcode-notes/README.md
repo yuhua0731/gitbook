@@ -1,2 +1,2 @@
-# 🐾 Leetcode Notes
+# 🔥 Leetcode Notes
 

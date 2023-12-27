@@ -1,18 +1,29 @@
----
-description: following the roadmap, enhance python coding skill
----
+# Github ssh keys
 
-# 🔆 Python roadmap
+## Follow the instruction
 
-> Reference: [https://roadmap.sh/python](https://roadmap.sh/python)
->
-> [https://realpython.com/lru-cache-python/](https://realpython.com/lru-cache-python/)
+{% embed url="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" %}
+Official Instruction
+{% endembed %}
 
-{% hint style="success" %}
-&#x20;[walrus operator (`:=`)](https://realpython.com/python-walrus-operator/)  :=)
+Note: do not ignore the ssh-agent part
 
-tips:&#x20;
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-* expressions with walrus operator must be parenthesized, in order to avoid ambiguities or user confusion
+## Related Issue
+
+{% hint style="info" %}
+[https://github.com/orgs/community/discussions/55269](https://github.com/orgs/community/discussions/55269)
 {% endhint %}
 
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>This solution works for me!</p></figcaption></figure>
+
+## 🥳最终.ssh/config中存在以下信息
+
+```
+Host github.com
+  	AddKeysToAgent yes
+	Hostname 20.200.245.248
+  	Port 443
+  	IdentityFile ~/.ssh/id_ed25519
+```
