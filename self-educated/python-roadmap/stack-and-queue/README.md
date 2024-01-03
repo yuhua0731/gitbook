@@ -81,10 +81,12 @@ Note: python's built-in `list` data structure is <mark style="color:yellow;">not
 {% hint style="info" %}
 `deque` is more <mark style="color:yellow;">flexible</mark>, and can <mark style="color:yellow;">change the direction</mark> dynamically during the runtime
 
-Most deques support two additional operations called <mark style="color:yellow;">rotate left</mark><mark style="color:yellow;">/right</mark>
+Most deques support two additional operations called <mark style="color:yellow;">rotate left/right</mark>
 {% endhint %}
 
-### `Queue module`
+### `queue module`
+
+> `from queue import Queue, LifoQueue`
 
 `Queue` has a <mark style="color:yellow;">maxsize</mark> property, which is the most difference from `collections.deque`
 

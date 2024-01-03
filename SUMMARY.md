@@ -4,6 +4,7 @@
 
 * [Github ssh keys](README.md)
 * [command line](tricks/command-line.md)
+* [pip](tricks/pip.md)
 
 ## 🦔 Self-Educated
 
@@ -22,7 +23,8 @@
 * [🔆 Python roadmap](self-educated/python-roadmap/README.md)
   * [🥑 Virtual environment](self-educated/python-roadmap/virtual-environment.md)
   * [Play with classes](self-educated/python-roadmap/play-with-classes/README.md)
-    * [writing elegant classes](self-educated/python-roadmap/play-with-classes/writing-elegant-classes.md)
+    * [🍵 writing elegant classes](self-educated/python-roadmap/play-with-classes/writing-elegant-classes.md)
+    * [🧩 modules](self-educated/python-roadmap/play-with-classes/modules.md)
   * [Yield](self-educated/python-roadmap/yield.md)
   * [Heap](self-educated/python-roadmap/heap.md)
   * [Stack & Queue](self-educated/python-roadmap/stack-and-queue/README.md)
