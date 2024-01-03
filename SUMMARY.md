@@ -31,6 +31,7 @@
     * [asyncio.Queue](self-educated/python-roadmap/stack-and-queue/asyncio.queue.md)
     * [multiprocessing.Queue](self-educated/python-roadmap/stack-and-queue/multiprocessing.queue.md)
     * [Third-party libraries](self-educated/python-roadmap/stack-and-queue/third-party-libraries.md)
+  * [Hash Table](self-educated/python-roadmap/hash-table.md)
   * [Graph Modules](self-educated/python-roadmap/graph-modules.md)
   * [Tree traversal order](self-educated/python-roadmap/tree-traversal-order.md)
   * [Thread-Safe](self-educated/python-roadmap/thread-safe.md)
