@@ -35,6 +35,8 @@
   * [Graph Modules](self-educated/python-roadmap/graph-modules.md)
   * [Tree traversal order](self-educated/python-roadmap/tree-traversal-order.md)
   * [Thread-Safe](self-educated/python-roadmap/thread-safe.md)
+* [📚 Documentation](self-educated/documentation/README.md)
+  * [🌲 Behavior tree](self-educated/documentation/behavior-tree.md)
 
 ***
 
