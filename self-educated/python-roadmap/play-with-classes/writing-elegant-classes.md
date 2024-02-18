@@ -2,7 +2,7 @@
 description: python中类的定义及常用方法应用
 ---
 
-# writing elegant classes
+# 🍵 writing elegant classes
 
 ## build-in methods
 

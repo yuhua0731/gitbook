@@ -47,3 +47,4 @@
   * [🛗 belt-lifter](hc/belt-lifter.md)
   * [✨ SPF-Sort\_Packet\_Feeder](hc/spf-sort\_packet\_feeder.md)
   * [🦩 zephyr-tool-kit](hc/zephyr-tool-kit.md)
+  * [🌚 Azure DevOps](hc/azure-devops.md)

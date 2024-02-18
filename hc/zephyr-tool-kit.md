@@ -56,7 +56,7 @@ ztk build --template=compile.json
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="460"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="460"><figcaption></figcaption></figure>
 
 </div>
 
