@@ -8,7 +8,7 @@ Official Instruction
 
 Note: do not ignore the ssh-agent part
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Related Issue
 
@@ -16,7 +16,7 @@ Note: do not ignore the ssh-agent part
 [https://github.com/orgs/community/discussions/55269](https://github.com/orgs/community/discussions/55269)
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>This solution works for me!</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>This solution works for me!</p></figcaption></figure>
 
 ## 🥳最终.ssh/config中存在以下信息
 
