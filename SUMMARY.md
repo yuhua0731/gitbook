@@ -2,7 +2,8 @@
 
 ## 👻 Tricks
 
-* [Github ssh keys](README.md)
+* [🫖 zshrc](README.md)
+* [Github ssh keys](<README (1).md>)
 * [command line](tricks/command-line.md)
 * [pip](tricks/pip.md)
 
