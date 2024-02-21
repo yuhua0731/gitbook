@@ -214,3 +214,15 @@ git submodule sync
 git submodule update --init --recursive
 ```
 
+## Import gitlab to devops
+
+```
+git clone <gitlab-url>
+cd <project>
+
+git remote -v
+git remote add devops <devops-url>
+
+git push devops --all
+git push devops --tags
+```
