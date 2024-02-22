@@ -20,18 +20,22 @@ git config --global core.pager ''
 git config --global core.excludesfile ~/.gitignore
 ```
 
-## Git repos
+## Git clone and remote
 
 ```sh
-# clone all commit history if without depth
-git clone —depth=1 —branch yuhua (git)
+git clone <gitlab-url>
+cd <project>
 
-# add a remote source: name = devops, url = clone url
-git remote add devops clone-url
+# add a remote source: name = devops, url = devops-clone-url
+git remote add devops <devops-clone-url>
+git remote -v
 
 # push all local git history to remote source, commit number will be kept
 git push devops --all
 git push devops --tags
+
+# clone all commit history if without depth
+git clone —depth=1 —branch yuhua (git)
 ```
 
 ## Branches
@@ -43,6 +47,7 @@ git push devops --tags
 git branch -v # -v "view current git branch"
 git branch -a # -a "all branches(local and remote)"
 git branch -vr # -r "remotely"
+git describe --tags
 ```
 
 ### Fetch & Pull
@@ -187,6 +192,10 @@ git reset --hard "commit" # recover to a specific commit
 git checkout "target commit"
 git cherry-pick "source commit"
 git push origin "target branch"
+
+# cherry pick from a merge commit
+# -m 1 ==> pick changes from 1 commit before to the merge commit
+git cherry-pick -m 1 39b48a6
 ```
 
 ## Manage `.gitignore` files
@@ -212,17 +221,4 @@ git submodule sync
 
 # update to latest version
 git submodule update --init --recursive
-```
-
-## Import gitlab to devops
-
-```
-git clone <gitlab-url>
-cd <project>
-
-git remote -v
-git remote add devops <devops-url>
-
-git push devops --all
-git push devops --tags
 ```
