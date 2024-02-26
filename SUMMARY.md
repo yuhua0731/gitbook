@@ -44,9 +44,10 @@
 
 ***
 
-* [🛩 HC](hc/README.md)
+* [🛩️ HC](hc/README.md)
   * [📷 ScanHome扫码器](hc/scanhome-sao-ma-qi.md)
   * [🛗 belt-lifter](hc/belt-lifter.md)
   * [✨ SPF-Sort\_Packet\_Feeder](hc/spf-sort\_packet\_feeder.md)
   * [🦩 zephyr-tool-kit](hc/zephyr-tool-kit.md)
   * [🌚 Azure DevOps](hc/azure-devops.md)
+  * [HCAgentPool](hc/hcagentpool.md)
