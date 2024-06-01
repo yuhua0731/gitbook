@@ -2,7 +2,7 @@
 description: deployed on s003
 ---
 
-# HCAgentPool
+# 🤖 HCAgentPool
 
 {% hint style="success" %}
 在Linux系统中搭建代理服务
@@ -65,6 +65,11 @@ Auda2018
 
 # path
 /home/hc/devopsagent
+
+# manage service
+sudo ./svc.sh start
+sudo ./svc.sh status
+sudo ./svc.sh stop
 ```
 
 
