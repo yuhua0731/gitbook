@@ -97,6 +97,42 @@ git rebase --continue
 git rebase --abort
 ```
 
+### Interactive rebase
+
+[Interactive rebase](http://git-scm.com/book/en/Git-Tools-Rewriting-History) is your friend!
+
+```bash
+$ git rebase -i HEAD~5
+```
+
+> where `-i` is the interactive flag, and `HEAD~5` means include the last 5 commits in the interactive rebase.
+
+When you get editor up as a result of issuing the above, take a look at the comment in the opened file:
+
+```bash
+# Commands:
+#  p, pick = use commit
+#  r, reword = use commit, but edit the commit message
+#  e, edit = use commit, but stop for amending
+#  s, squash = use commit, but meld into previous commit
+#  f, fixup = like "squash", but discard this commit's log message
+#  x, exec = run command (the rest of the line) using shell
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
+# Note that empty commits are commented out
+```
+
+The key bit for you is <mark style="color:green;">**If you remove a line here THAT COMMIT WILL BE LOST.**</mark>
+
+So, delete the lines that reference the commits you want to be rid of, save and close, and git will handle the rest (you may have to fix some conflicts depending on the nature of the commit and the revert you're trying to delete).
+
+It's important to note that if you have already pushed your code and others have pulled it, the above will not work as the commits will find their way back in there the next time someone who has your branch checked out does a push. The interactive rebase deletes the commits to the extent that there is no record of them, so the other clones do not know they have been deleted. Next time they push, they'll try and re-instate them as the local clones "see" that the origin does not have the objects (commits) that you have deleted.
+
 ### Rename branch
 
 ```sh
@@ -222,3 +258,5 @@ git submodule sync
 # update to latest version
 git submodule update --init --recursive
 ```
+
+##
