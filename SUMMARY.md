@@ -51,3 +51,4 @@
   * [🦩 zephyr-tool-kit](hc/zephyr-tool-kit.md)
   * [🌚 Azure DevOps](hc/azure-devops.md)
   * [🤖 HCAgentPool](hc/hcagentpool.md)
+  * [Orangepi](hc/orangepi.md)
