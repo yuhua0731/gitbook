@@ -32,3 +32,42 @@ nested_defaultdict = defaultdict(lambda: defaultdict(int))
 ```
 {% endcode %}
 
+## negative base
+
+```python
+def baseNeg2(self, n: int) -> str:
+    def divmod_non_negative(a, b):
+        quotient, remainder = divmod(a, b)
+        if remainder < 0:
+            quotient += 1
+            remainder -= b
+        return quotient, remainder
+    
+    if n == 0: return '0'
+    ret = ''
+    while n != 0:
+        a, b = divmod_non_negative(n, -2)
+        ret += str(b)
+        n = a
+    return ret[::-1]
+```
+
+## TLE
+
+```python
+# the following list action will get TLE
+ret = []
+for i in arr:
+    ret = [i] + ret
+# this will copy the whole list
+# generate a new list and point the previous variable to the new list
+    
+# while, the general append action will beat 100% time
+ret = []
+for i in arr:
+    ret.append(i)
+ret = ret[::-1]
+```
+
+
+
