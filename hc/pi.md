@@ -1,3 +1,7 @@
+---
+icon: raspberry-pi
+---
+
 # pi
 
 ## Config wireless option
