@@ -52,4 +52,5 @@
   * [🦩 zephyr-tool-kit](hc/zephyr-tool-kit.md)
   * [🌚 Azure DevOps](hc/azure-devops.md)
   * [🤖 HCAgentPool](hc/hcagentpool.md)
-  * [Orangepi](hc/orangepi.md)
+  * [pi](hc/pi.md)
+  * [\<err> canopen\_driver: failed to send CAN frame (err -114)](hc/less-than-err-greater-than-canopen\_driver-failed-to-send-can-frame-err-114.md)

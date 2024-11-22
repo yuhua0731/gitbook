@@ -1,4 +1,4 @@
-# Orangepi
+# pi
 
 ## Config wireless option
 
@@ -27,3 +27,30 @@ sudo nmcli device wifi connect 'WiFiNetworkName' password 'WifiPass' ifname wlan
 # verify the connection
 ip -br address show dev wlan0
 ```
+
+## Reset user password
+
+* 关机，拔出SD卡，插入其他电脑
+* 打开SD卡目录，编辑`cmdline.txt`文本文件，在末尾加上`init=/bin/sh`，保存
+* 将SD卡插回pi，连接屏幕、键盘，开机，等待光标出现
+* 输入
+  * `mount -o remount rm /`
+  * `passwd pi`
+* 提示输入新密码，重复输入两遍，显示密码更新成功
+* 输入
+  * `sync`
+  * `exec /sbin/init`
+* pi同步并启动
+
+
+
+`mac: B8:27:EB:6B:32:10`&#x20;
+
+`static ip: 10.0.66.77`
+
+`username & password: pi`
+
+![](<../.gitbook/assets/image (35).png>)
+
+
+
