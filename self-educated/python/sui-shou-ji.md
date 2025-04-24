@@ -4,7 +4,14 @@ description: 随手记录的草稿本，鸣谢：chatgpt
 
 # ✏️ 随手记
 
-## random
+## 将数字转换成指定位数的binary形式
+
+```python
+def helper(x, n):
+    return format(x, f'0{n}b')
+```
+
+## random模块常用方法
 
 <pre class="language-python" data-line-numbers><code class="lang-python">import random
 
@@ -21,7 +28,7 @@ random_integer = random.randint(low, high)
 random_element = random.choices(elements, probabilities)[0]
 </code></pre>
 
-## defaultdict
+## defaultdict嵌套用法
 
 {% code lineNumbers="true" %}
 ```python
@@ -32,7 +39,7 @@ nested_defaultdict = defaultdict(lambda: defaultdict(int))
 ```
 {% endcode %}
 
-## negative base
+## 以负数为基数的进制转换：negative base
 
 ```python
 def baseNeg2(self, n: int) -> str:
@@ -52,7 +59,7 @@ def baseNeg2(self, n: int) -> str:
     return ret[::-1]
 ```
 
-## TLE
+## 列表多次拷贝导致TLE
 
 ```python
 # the following list action will get TLE
@@ -69,7 +76,7 @@ for i in arr:
 ret = ret[::-1]
 ```
 
-## Calculate diff in rewind value range
+## 变量rewind处理：Calculate diff in rewind value range
 
 ### 计算目标-当前，带方向
 

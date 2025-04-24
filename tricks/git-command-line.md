@@ -1,8 +1,8 @@
 ---
-description: most used git command line commands
+description: most used git command line examples
 ---
 
-# git commands
+# git command-line
 
 ## Config git global info
 

@@ -21,16 +21,15 @@ sudo nmcli device wifi list
 
 ### Connect to network
 
-```sh
-# connect to a public network
-sudo nmcli device wifi connect 'WiFINetworkName' ifname wlan0
-
+<pre class="language-sh"><code class="lang-sh"># connect to a public network
+<strong>sudo nmcli device wifi connect 'WiFINetworkName' ifname wlan0
+</strong>
 # connect to a secure network
-sudo nmcli device wifi connect 'WiFiNetworkName' password 'WifiPass' ifname wlan0
-
+<strong>sudo nmcli device wifi connect 'WiFiNetworkName' password 'WifiPass' ifname wlan0
+</strong>
 # verify the connection
 ip -br address show dev wlan0
-```
+</code></pre>
 
 ## Reset user password
 
@@ -46,7 +45,7 @@ ip -br address show dev wlan0
   * `exec /sbin/init`
 * pi同步并启动
 
-
+## Raspberry pi
 
 `mac: B8:27:EB:6B:32:10`&#x20;
 
@@ -57,4 +56,6 @@ ip -br address show dev wlan0
 ![](<../.gitbook/assets/image (35).png>)
 
 
+
+lsb\_release -a
 

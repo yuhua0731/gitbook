@@ -76,8 +76,13 @@ sudo ./svc.sh stop
 
 ```sh
 export AGENT_TOOLSDIRECTORY="/opt/hostedtoolcache"
+# expired
 export DEVOPS_ACCESS_TOKEN="6qo2sbx5fl2q7ydd33dsjqbktngsr2sdhipenhnrhnqbgwzniaqa"
+# active
+export DEVOPS_ACCESS_TOKEN="B1XYmUCWUJYOlsAiLCHNNUOiNzJ3G0CJy1ddIx380NZqyBFWLWC3JQQJ99BCACAAAAAP6MqkAAASAZDOE6nd" 
 ```
+
+替换`/bin/replace_url.sh`中`oauth2:***@`中的`token key`
 
 ## 部署Pipeline
 
