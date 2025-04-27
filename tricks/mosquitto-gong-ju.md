@@ -43,7 +43,7 @@ listener 1883 0.0.0.0
 
 这行命令让Mosquitto监听所有网络接口上的1883端口。
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 当配置文件中没有定义`listener`时，`allow_anonymous`的默认值为`true`，允许匿名连接，但仅允许通过`localhost`进行连接，即从本机连接。
@@ -53,7 +53,7 @@ listener 1883 0.0.0.0
 
 检查MQTT代理的配置文件（如`mosquitto.conf`），查看是否有关于允许匿名连接的设置，例如`allow_anonymous`。如果设置为`false`，则需要提供有效的认证信息。
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 捕捉到终止信号并关闭mqtt客户端
 
